@@ -1,0 +1,146 @@
+{
+  "ListingId": 996045890,
+  "Title": "Test QA Android",
+  "Category": "0351-2489-6444-9260-",
+  "StartPrice": 1,
+  "StartDate": "/Date(1450665681090)/",
+  "EndDate": "/Date(1451270481090)/",
+  "ListingLength": null,
+  "BidderAndWatchers": 1,
+  "AsAt": "/Date(1450823803381)/",
+  "CategoryPath": "/Baby-gear/Backpacks-carriers/Frontpacks/Elite",
+  "HasPayNow": true,
+  "RegionId": 9,
+  "Region": "Manawatu",
+  "Suburb": "Palmerston North",
+  "ViewCount": 6,
+  "NoteDate": "/Date(0)/",
+  "CategoryName": "Elite",
+  "Attributes": [],
+  "OpenHomes": [],
+  "MinimumNextBidAmount": 1,
+  "IsOnWatchList": true,
+  "PriceDisplay": "$1.00",
+  "Member": {
+    "MemberId": 4449,
+    "Nickname": "morzart",
+    "DateAddressVerified": "/Date(1420542000000)/",
+    "DateJoined": "/Date(946551600000)/",
+    "UniqueNegative": 34,
+    "UniquePositive": 16276,
+    "FeedbackCount": 16242,
+    "IsAddressVerified": true,
+    "Suburb": "Palmerston North",
+    "Region": "Manawatu",
+    "IsAuthenticated": true,
+    "IsInTrade": true
+  },
+  "Body": "Test Android QA",
+  "Questions": {
+    "TotalCount": 4,
+    "Page": 1,
+    "PageSize": 4,
+    "List": [
+      {
+        "ListingId": 996045890,
+        "ListingQuestionId": 278692983,
+        "Comment": "This a question?",
+        "CommentDate": "/Date(1450818519503)/",
+        "IsSellerComment": false,
+        "Answer": "blabla",
+        "AnswerDate": "/Date(1450818544263)/",
+        "AskingMember": {
+          "MemberId": 4632,
+          "Nickname": "mudpig22",
+          "DateAddressVerified": "/Date(1421751600000)/",
+          "DateJoined": "/Date(946551600000)/",
+          "UniqueNegative": 4,
+          "UniquePositive": 2374,
+          "FeedbackCount": 2370,
+          "IsAddressVerified": true,
+          "IsAuthenticated": true
+        }
+      },
+      {
+        "ListingId": 996045890,
+        "ListingQuestionId": 278692984,
+        "Comment": "Question 2?!",
+        "CommentDate": "/Date(1450818583887)/",
+        "IsSellerComment": false,
+        "Answer": "test",
+        "AnswerDate": "/Date(1450818701933)/",
+        "AskingMember": {
+          "MemberId": 4632,
+          "Nickname": "mudpig22",
+          "DateAddressVerified": "/Date(1421751600000)/",
+          "DateJoined": "/Date(946551600000)/",
+          "UniqueNegative": 4,
+          "UniquePositive": 2374,
+          "FeedbackCount": 2370,
+          "IsAddressVerified": true,
+          "IsAuthenticated": true
+        }
+      },
+      {
+        "ListingId": 996045890,
+        "ListingQuestionId": 278692985,
+        "Comment": "Test",
+        "CommentDate": "/Date(1450818784873)/",
+        "IsSellerComment": false,
+        "Answer": "test",
+        "AnswerDate": "/Date(1450818881707)/",
+        "AskingMember": {
+          "MemberId": 4632,
+          "Nickname": "mudpig22",
+          "DateAddressVerified": "/Date(1421751600000)/",
+          "DateJoined": "/Date(946551600000)/",
+          "UniqueNegative": 4,
+          "UniquePositive": 2374,
+          "FeedbackCount": 2370,
+          "IsAddressVerified": true,
+          "IsAuthenticated": true
+        }
+      },
+      {
+        "ListingId": 996045890,
+        "ListingQuestionId": 278692989,
+        "Comment": "TEST",
+        "CommentDate": "/Date(1450820166233)/",
+        "IsSellerComment": false,
+        "Answer": "",
+        "AnswerDate": "/Date(0)/",
+        "AskingMember": {
+          "MemberId": 4632,
+          "Nickname": "mudpig22",
+          "DateAddressVerified": "/Date(1421751600000)/",
+          "DateJoined": "/Date(946551600000)/",
+          "UniqueNegative": 4,
+          "UniquePositive": 2374,
+          "FeedbackCount": 2370,
+          "IsAddressVerified": true,
+          "IsAuthenticated": true
+        }
+      }
+    ]
+  },
+  "Photos": [],
+  "AllowsPickups": 1,
+  "ShippingOptions": [
+    {
+      "Type": 3,
+      "Method": "Free shipping within New Zealand",
+      "ShippingId": 3
+    },
+    {
+      "Type": 2,
+      "Method": "I intend to pick-up",
+      "ShippingId": 2
+    }
+  ],
+  "PaymentOptions": "Pay Now",
+  "UnansweredQuestionCount": 1,
+  "IsInTradeProtected": true,
+  "IsInCart": false,
+  "CanAddToCart": false,
+  "EmbeddedContent": {}
+}

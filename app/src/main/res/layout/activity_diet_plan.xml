@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue">
+
+    <EditText
+        android:id="@+id/etSearchInDiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:hint="Search"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvDiet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/etSearchInDiet"
+        android:divider="#ad8e69"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="true">
+
+    </ListView>
+
+    <!-- Footer below Content -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_border"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvAddNewDietPlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableRight="@android:drawable/ic_menu_add"
+            android:gravity="center"
+            android:text="Add New"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

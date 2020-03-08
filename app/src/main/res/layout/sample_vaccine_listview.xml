@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:visibility="invisible"
+        android:id="@+id/imvVaccinationStatus"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_green"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Vaccine Name"
+            android:padding="5dp"
+            android:textColor="#ff172d"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/tvVaccineName"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Next Date"
+            android:padding="5dp"
+            android:textColor="#a9126a"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/tvNextDate"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:id="@+id/imvArrowInVaccinations"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_white"/>
+
+</LinearLayout>

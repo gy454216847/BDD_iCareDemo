@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="thebigbang.com.icare.Activities.HomeScreenActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        android:title="@string/action_search"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_search_category_default"/>
+    <item
+        android:id="@+id/itemMenu"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_menu"
+        android:title=""
+        app:showAsAction="always" >
+
+        <menu>
+
+            <item
+                android:id="@+id/aroundMe"
+                android:title="Around Me"
+                android:icon="@drawable/ic_action_around_me"/>
+            <item
+                android:id="@+id/settings"
+                android:title="Settings"
+                android:icon="@drawable/ic_action_settings"/>
+            <item
+                android:id="@+id/aboutIcare"
+                android:title="About iCAre"
+                android:icon="@drawable/ic_launcher"/>
+            <item
+                android:id="@+id/exit"
+                android:title="Exit"
+                android:icon="@drawable/ic_action_exit"
+                />
+        </menu>
+        </item>
+</menu>

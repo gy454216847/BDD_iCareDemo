@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue">
+
+    <!-- Content Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#884488"
+                    android:gravity="center"
+                    android:text="Alarm"
+                    android:textColor="#FFFFFF" />
+
+                <CheckBox
+                    android:id="@+id/chbVaccineAlarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaccination Alarm" />
+
+                <CheckBox
+                    android:id="@+id/chbDietChartAlert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diet Chart Alarm" />
+
+                <CheckBox
+                    android:id="@+id/chbAppointmentAlert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Appointment Alarm" />
+
+
+
+                <TextView
+                    android:id="@+id/tvAlarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#884488"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#FFFFFF" />
+
+                <CheckBox
+                    android:id="@+id/chbStatusBarNotification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status Bar Notification" />
+
+                <CheckBox
+                    android:id="@+id/chbPopUpAlertDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pop Up Alert Dialog" />
+
+                <CheckBox
+                    android:id="@+id/chbAlarmVibration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alarm Vibration" />
+
+                <CheckBox
+                    android:id="@+id/chbVoiceAlarm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Voice Alarm" />
+                <CheckBox
+                    android:id="@+id/chbThemeChange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Change Theme" />
+
+                <Button
+                    android:id="@+id/btnSaveOfSetting"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:drawable/btn_default_small"
+                    android:text="Save" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+    <!-- End of Main Content -->
+    <!-- Footer below Content -->
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_border"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/tvFooter"
+            android:textColor="#FFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

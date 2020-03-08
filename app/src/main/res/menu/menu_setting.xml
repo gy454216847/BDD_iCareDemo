@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="thebigbang.com.icare.Activities.SettingActivity">
+
+    <item
+        android:id="@+id/itemMenuInSettings"
+        android:orderInCategory="2"
+        android:icon="@drawable/ic_menu"
+        android:title=""
+        app:showAsAction="always" >
+
+        <menu>
+            <item
+                android:id="@+id/userProfileInSettings"
+                android:title="User Profile"
+                android:checked="true"
+                android:icon="@drawable/ic_action_user_profile"/>
+            <item
+                android:id="@+id/aroundMeInSettings"
+                android:title="Around Me"
+                android:icon="@drawable/ic_action_around_me"/>
+
+            <item
+                android:id="@+id/aboutIcareInSettings"
+                android:title="About iCAre"
+                android:icon="@drawable/ic_launcher"/>
+
+        </menu>
+    </item>
+</menu>
